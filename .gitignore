@@ -1,0 +1,54 @@
+# 🔴 이 저장소는 공개된다. 데이터가 들어올 자리를 막는다.
+#
+# 가리는 기준은 개체 이름과 품종이다 (2026-08-28 기업 승인 조건).
+# 화면 갈무리의 유전자명·좌표·유전형·수치는 뺄 대상이 아니다.
+
+# 유전체 데이터 파일 — 어떤 형태로도 두지 않는다
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.vcf
+*.vcf.gz
+*.bcf
+*.gvcf
+*.sam
+*.fa
+*.fasta
+*.fai
+*.tbi
+*.csi
+*.bed
+*.bim
+*.fam
+*.ped
+*.map
+*.gtf
+*.gff
+*.gff3
+*.bgz
+
+# 후보 변이표·리포트 원본
+*.tsv
+*.csv
+*.parquet
+report_*.json
+*_report.json
+
+# 시크릿
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# OS / 에디터
+.DS_Store
+.vscode/
+.idea/
+
+# 문서 윤문 작업 파일
+_workspace/
